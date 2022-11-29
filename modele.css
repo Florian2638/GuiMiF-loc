@@ -17,6 +17,7 @@ footer{
 .modeletop{
     display: flex;
     flex-direction: column;
+    
 }
 .modeleimg>img{
     width: 100%;
@@ -28,6 +29,9 @@ img:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px #1c3b49 solid;
+    border-radius: 4px;
+    margin: 10px;
 }
 .modeleform{
     display: flex;
@@ -37,4 +41,7 @@ img:hover{
 form{
     display: flex;
     flex-direction: column;
+}
+.bouton{
+    padding-bottom: 20px;
 }
