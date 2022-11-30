@@ -90,4 +90,63 @@ button{
 ::placeholder{
     font-style: italic;
 }
+@media screen and (min-width:768px){
+    #modele{
+        display: flex;
+        flex-direction: row;
+    }
+    .modeletop{
+        width: 60%;
+    }
+    .modeleform{
+        width: 40%;
+    }
+    .modeleimg{
+        width: 60%;
+        display: flex;
+        align-self: center; ;
+    }
+    .modeleimg>img:hover{
+        opacity: 0.6;
+        transform: scale(1.2);
+    }
+    .descriptif{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 65%;
+    }
+    .modeleform{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 6px 6px 0px #1c3b49;
+    }
+    .formulavaire{
+        padding: 30px;
+        font-size: large;
+        border: 2px solid #a59612;
+        border-radius: 4px;
+    }
+    input{
+        border-bottom: 2px solid black;
+        text-transform: uppercase;
+    }
+    .modeleftech{
+        box-shadow: 6px 6px 0px #1c3b49;
+    }
+    .bull>h3{
+        text-transform: uppercase;
+    }
+    .formicone{
+        padding-bottom: 30px;
+    }
+    .tarot{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    
+}
 
