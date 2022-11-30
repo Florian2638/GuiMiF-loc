@@ -1,9 +1,6 @@
-* {
+html,body{
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace
-}
-
-html, html>body{
     height: 100%;
 }
 
@@ -21,26 +18,30 @@ a {
 
 nav {
     height: 15%;
-    padding-top: 3%;
     color: #A59612;
     background-color: #1c3b49;
+    padding: 0 5% 0 5%;
 }
 
 #nav {
     display: flex;
     align-items: center;
-    padding: 3%;
+     padding-top:5%;
 }
 
-
+nav h1{
+ margin: 0;
+ 
+}
 
 nav ul {
     background-color: rgba(28, 59, 73, 0.3);
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding: 0;
-    padding: 5% 3% 0% 3%;
+   margin: 0;
+   padding: 0;
+   padding-top: 2%;
 }
 
 
@@ -100,10 +101,16 @@ footer {
 #foo {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+footer h4{
+margin: 0;
 }
 
 footer h5 {
     text-align: center;
+    margin: 0;
     margin-top: 5%;
 
 }
@@ -116,9 +123,8 @@ main iframe {
     width: 100%;
 }
 
-
-#icon{
-    font-size: 150%;
+#icon .svg-inline--fa{
+    height: 1.5em;
 }
 
 
@@ -164,18 +170,16 @@ main iframe {
        width: 50%;
     }
     
-nav{
-    padding-top: 2%;
-}
-
 nav h1{
     font-size: 200%;
+    margin-top: 1%;
 }
 
 nav ul{
     font-size: 130%;
-    padding-top: 1%;
     padding-bottom: 1%;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 nav ul li{
@@ -191,12 +195,21 @@ footer h4{
     font-size: 120%;
 }
 
-#icon{
-    font-size: 200%;
-}
+
 
 footer h5 {
     margin-top: 1%;
+}
+
+#icon{
+    width: 30%;
+    text-align: end;
+}
+
+#icon .svg-inline--fa{
+    fill: aliceblue;
+    margin-left: 10%;
+    height: 2.5em;
 }
 }
 
