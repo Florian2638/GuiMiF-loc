@@ -37,6 +37,10 @@ img:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px #1c3b49 solid;
+    border-radius: 4px;
+    margin: 10px;
+    padding-bottom: ;
 }
 form{
     display: flex;
@@ -45,3 +49,25 @@ form{
 .bouton{
     padding-bottom: 20px;
 }
+.ftechnique{
+    background-color: #1c3b49;
+    width: 100%;
+    text-align: center;
+}
+.dimtitre{
+    border-bottom: 2px solid #1c3b49;  
+}
+.longueur{
+    background-color:white;
+    border-radius: 2px;
+}
+input{
+    border: none;
+    border-bottom: 1px #1c3b49 solid;
+    background-color: #dcdcdc;
+}
+.formdate{
+    display: flex;
+    justify-content: center;
+}
+
