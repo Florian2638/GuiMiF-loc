@@ -164,13 +164,17 @@ main iframe {
        width: 50%;
     }
     
+nav{
+    padding-top: 2%;
+}
+
 nav h1{
     font-size: 200%;
 }
 
 nav ul{
     font-size: 130%;
-    padding-top: 2%;
+    padding-top: 1%;
     padding-bottom: 1%;
 }
 
