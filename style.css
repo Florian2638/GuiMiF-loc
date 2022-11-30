@@ -54,7 +54,7 @@ main {
 
 #horaires {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #maintext,
@@ -62,11 +62,16 @@ main {
     padding: 3%;
     margin: 3%;
     background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 3%;
+    border-radius: 3px;
+}
+
+#semain{
+    font-weight:bold;
 }
 
 main h3 {
     margin-bottom: 3%;
+    text-align: center;
 }
 
 
@@ -83,7 +88,6 @@ main h3 {
 footer {
     background-color: #1c3b49;
     color: #A59612;
-
     padding: 5%;
 }
 
@@ -94,6 +98,8 @@ footer {
 
 footer h5 {
     text-align: center;
+    margin-top: 5%;
+
 }
 
 main img {
@@ -105,3 +111,79 @@ main iframe {
 }
 
 
+#icon{
+    font-size: 150%;
+}
+
+@media screen and (min-width:768px) {
+    #title {
+        font-size: 200%;
+        top: 15%;
+        left: 50%;
+    }
+
+    #mainimage {
+        height: 500px;
+    }
+
+#maintext{
+    position: absolute;
+    top: 20%;
+        left: 2%;
+        width: 25%;
+        background-color: rgba(255, 255, 255, 0.7);
+}
+
+#maintext,
+#mainhoraies {
+    border-radius: 30px;
+}
+
+    main iframe {
+        width: 40%;
+        margin: 3%;
+    }
+
+
+    #map{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #mainhoraies {
+       width: 50%;
+    }
+    
+nav h1{
+    font-size: 200%;
+}
+
+nav ul{
+    font-size: 130%;
+    padding-bottom: 1%;
+}
+
+nav ul li{
+    margin-right: 30%;
+}
+
+#nav,footer{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer h4{
+    font-size: 120%;
+}
+
+#icon{
+    font-size: 200%;
+}
+
+footer h5 {
+    margin-top: 1%;
+}
+}
