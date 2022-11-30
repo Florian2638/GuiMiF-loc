@@ -2,6 +2,9 @@ html,body{
     margin: 0;
     height: 100%;
 }
+body{
+    background-color: #dbdbdb;
+}
 nav{
     height: 15%;
     background-color: #1c3b49;
@@ -40,7 +43,6 @@ img:hover{
     border: 2px #1c3b49 solid;
     border-radius: 4px;
     margin: 10px;
-    padding-bottom: ;
 }
 form{
     display: flex;
@@ -68,6 +70,20 @@ input{
 }
 .formdate{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
+.formtexte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    background-color: #1c3b49;
+    border-color: #1c3b49;
+    border-radius: 4px;
+    color: #a59612;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
