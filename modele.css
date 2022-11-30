@@ -27,6 +27,7 @@ footer{
 }
 img:hover{
     opacity: 0.6;
+    transform: scale(1.05);
 }
 .modeleftech{
     display: flex;
@@ -62,6 +63,7 @@ form{
 .longueur{
     background-color:white;
     border-radius: 2px;
+    padding-left: 40px;
 }
 input{
     border: none;
@@ -85,5 +87,7 @@ button{
     padding-left: 20px;
     padding-right: 20px;
 }
-
+::placeholder{
+    font-style: italic;
+}
 
