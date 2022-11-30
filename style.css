@@ -43,6 +43,11 @@ main {
 }
 
 #mainimage {
+    height: 230px;
+    background-image: url(../img/acceuilimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
     position: relative;
 }
 
@@ -68,10 +73,10 @@ main h3 {
 
 #title {
     position: absolute;
-    font-size: 120%;
+    font-size: 100%;
     color: white;
     top: 40%;
-    left: 17%;
+    left: 22%;
 }
 
 
@@ -98,3 +103,5 @@ main img {
 main iframe {
     width: 100%;
 }
+
+
