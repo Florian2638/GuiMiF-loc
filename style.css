@@ -3,6 +3,12 @@
     font-family: 'Courier New', Courier, monospace
 }
 
+html, html>body{
+    height: 100%;
+}
+
+
+
 a:hover {
     opacity: 0.3;
     text-decoration: none;
@@ -14,12 +20,13 @@ a {
 }
 
 nav {
+    height: 15%;
+    padding-top: 3%;
     color: #A59612;
     background-color: #1c3b49;
 }
 
 #nav {
-    height: 15%;
     display: flex;
     align-items: center;
     padding: 3%;
@@ -33,12 +40,11 @@ nav ul {
     display: flex;
     justify-content: space-between;
     padding: 0;
-    padding: 0% 3% 3% 3%;
+    padding: 5% 3% 0% 3%;
 }
 
 
 main {
-    height: 70%;
     background-color: #DBDBDB;
 }
 
@@ -115,6 +121,7 @@ main iframe {
     font-size: 150%;
 }
 
+
 @media screen and (min-width:768px) {
     #title {
         font-size: 200%;
@@ -187,3 +194,4 @@ footer h5 {
     margin-top: 1%;
 }
 }
+
