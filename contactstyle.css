@@ -1,6 +1,6 @@
 /*header,footer*/
 html,body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace,sans-serif;
     margin: 0;
     height: 100%;
 }
@@ -37,8 +37,15 @@ nav,#footcon{
 }
 
 
-h1{
+h2{
  margin: 0;
+ color: #DBDBDB;
+ text-shadow:
+        1px 1px #A59612,
+        -1px 1px #A59612,
+        1px -1px #A59612,
+        -1px -1px #A59612,
+        1px 1px 5px #faf3b1;
 }
 
 nav ul {
@@ -48,7 +55,6 @@ nav ul {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    align-items: baseline;
 }
 
 #foo {
@@ -81,19 +87,64 @@ footer h5 {
 
 main {
     height: 80%;
-    background-color: #DBDBDB;
-}    
-
-#mainimage {
-    height: 230px;
     background-image: url(../img/pexels-kaique-rocha-57645.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size:cover;
-    position: relative;
-
 }    
 
+.form-control{
+    background-color: #DBDBDB;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 7px 5px rgba(28, 59, 73, 0.3);
+}
+
+
+form{
+height: 70%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+input{
+  height: 15px;
+}
+
+input,textarea{
+    padding:10px;
+    width: 70%;
+}
+
+::placeholder{
+    position: relative;
+}
+
+
+
+#con{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+button{
+    height: 35px;
+    width: 150px;
+    line-height:3%;
+    padding: 1%;
+    border: 0;
+    border-radius: 20px;
+    background-color: #A59612;
+    color: #DBDBDB;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
 
 @media screen and (min-width:768px) {
    /*header,footer*/
