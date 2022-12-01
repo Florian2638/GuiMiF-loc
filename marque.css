@@ -56,7 +56,7 @@ h1 {
 }
 
 .card-image:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     transform: scale(1.15)
 }
 
@@ -236,7 +236,9 @@ footer h4{
 #foo>a {
     margin-left: 8%;
 }
-
+#foo a:hover{
+    opacity: 0.7;
+}
 #foo>#icon {
     margin-right: 8%;
 }
