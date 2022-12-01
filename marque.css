@@ -91,7 +91,7 @@ a {
 
 .card-body h3 {
     font-size: 25px;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace,sans-serif;
 }
 
 button {
@@ -149,6 +149,7 @@ ul>a:hover{
 nav {
     color: #A59612;
     background-color: #1c3b49;
+    font-family:'Courier New', Courier, monospace,sans-serif;
 }
 
 #nav {
@@ -206,7 +207,7 @@ nav ul {
 footer {
     background-color: #1c3b49;
     color: #A59612;
-   
+    font-family:'Courier New', Courier, monospace,sans-serif;
 }
 
 #foo {
