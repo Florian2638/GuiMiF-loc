@@ -31,7 +31,13 @@ nav,#footcon{
     justify-content: space-between;
 }
 
-nav h1{
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+
+h1{
  margin: 0;
 }
 
@@ -44,6 +50,32 @@ nav ul {
     padding: 0;
     align-items: baseline;
 }
+
+#foo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon{
+    width: 30%;
+    text-align: end;
+    }
+
+#icon .svg-inline--fa{
+    padding-left: 5%;
+    height: 1.2em;
+    } 
+
+footer h4{
+    margin: 0;
+    }
+    
+footer h5 {
+        text-align: center;
+        margin: 0;    
+    }
+    
 
 /*main*/
 
@@ -71,7 +103,6 @@ main {
 
     nav ul{
     font-size: 130%;
-    padding-top: 0;
     }
 
     nav ul li{
@@ -79,8 +110,8 @@ main {
     }
 
     header,footer{
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     }
 
     footer h4{
