@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     height: 100%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -326,7 +327,7 @@ footer {
 }
 footer h4{
 margin: 0;
-font-size: larger;
+font-size: medium;
 }
 
 footer h5 {
@@ -334,4 +335,7 @@ footer h5 {
 }
 #icon .svg-inline--fa{
     height: 1.5em;
+}
+li{
+    font-size: large;
 }
