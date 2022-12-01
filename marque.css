@@ -32,7 +32,7 @@ h1 {
 .card-excerpt {
     display: flex;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     margin-left: 40px;
     margin-right: 40px;
 
@@ -91,7 +91,7 @@ a {
 
 .card-body h3 {
     font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:'Courier New', Courier, monospace;
 }
 
 button {
@@ -226,6 +226,7 @@ footer h5 {
 #icon a {
     font-size: 150%;
     color: #A59612;
+    padding: 10px;
 }
 footer h4{
     font-size: 120%;
