@@ -29,7 +29,21 @@ h1 {
     gap: .5rem;
 
 }
-
+.nava1 a:focus{
+    font-style: italic
+}
+.hover {
+    color: #0000;
+    background: 
+      linear-gradient(90deg,#A59612 50%,#000 0) 
+      var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: .4s;
+  }
+  .hover:hover {
+    --_p: 0%;
+  }
 .card-excerpt {
     display: flex;
     text-align: center;
@@ -88,6 +102,9 @@ a {
     color: #A59612;
     border-color: #1c3b49;
     margin-top: 25px;
+}
+.bouton1>button:hover{
+    background-color : #A59612; padding : 8px; cursor : pointer; display : inline-block ;color: #1c3b49;
 }
 
 .card-body h3 {
