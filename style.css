@@ -100,7 +100,7 @@ main {
 
 #mainimage {
     height: 230px;
-    background-image: url(../img/acceuilimg.jpg);
+    background-image: url(img/acceuilimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
