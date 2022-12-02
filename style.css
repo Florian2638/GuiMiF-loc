@@ -1,3 +1,31 @@
+/*test dropdown*/
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#DBDBDB;
+    border-radius: .45rem;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:#1c3b49;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 /*header,footer*/
 html,body{
     font-family: 'Courier New', Courier, monospace,sans-serif;
@@ -160,11 +188,8 @@ main h3 {
         }
     
         nav ul{
-        font-size: 130%;
-        }
-    
-        nav ul li{
-        padding-right: 30%;
+        font-size: 1.3rem;
+        padding: 0 4rem;
         }
     
         header,footer{
